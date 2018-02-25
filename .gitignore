@@ -2,3 +2,6 @@
 *.iws
 *.ipr
 *.iml
+
+*.jar
+*.jar.original

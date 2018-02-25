@@ -6,6 +6,10 @@ Small (one-file) spring-boot application to run experiments. https://en.wikipedi
 1. Run: `spring run Main.groovy`
 1. Build jar: `spring jar nanobe.jar .`
 
+# Docker
+- Build: `spring jar nanobe.jar . && docker-compose build`
+- Build and run:`spring jar nanobe.jar . && docker-compose up`
+
 # Open in IntelliJ
 1. Open
 1. Open Module Settings
