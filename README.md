@@ -3,7 +3,7 @@ Small (one-file) spring-boot application to run experiments. https://en.wikipedi
 
 # How to use
 1. Install [spring-boot cli](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli)
-1. Run: `spring run Main.groovy`
+1. Run: `spring run nanobe.groovy`
 1. Build jar: `spring jar nanobe.jar .`
 
 # Docker
