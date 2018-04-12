@@ -3,12 +3,12 @@ Small (one-file) spring-boot application to run experiments. https://en.wikipedi
 
 # How to use
 1. Install [spring-boot cli](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli)
-1. Run: `spring run *.groovy`
-1. Build jar: `spring jar nanobe.jar .`
+1. Run: `./builder run` OR `spring run *.groovy`
+1. Build jar: `./builder jar` OR `spring jar nanobe.jar .`
 
 # Docker
-- Build: `spring jar nanobe.jar . && docker-compose build`
-- Build and run:`spring jar nanobe.jar . && docker-compose up`
+- Build: `./builder dockerBuild` OR `spring jar nanobe.jar . && docker-compose build`
+- Build and run: `./builder dockerRun` OR `spring jar nanobe.jar . && docker-compose up`
 
 # Open in IntelliJ
 1. Open
